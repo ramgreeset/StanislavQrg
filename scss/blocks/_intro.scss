@@ -3,6 +3,17 @@
     background: rgb(0, 70, 135);
     background: linear-gradient(0deg, rgba(0, 70, 135, 1) 0%, rgba(96, 130, 182, 1) 50%, rgba(212, 219, 231, 1) 100%);
     &__wrapper {
-
+        display: flex;
+    }
+    .info {
+        padding-top: 60px;
+    }
+    .info__name {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .info__descr {
+    }
+    .intro__img {
     }
 }
